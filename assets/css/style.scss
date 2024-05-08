@@ -30,37 +30,3 @@ body, h1, h2, h3, p, li {
     }
 }
 
-// Path to your image
-$image-path: 'assets/img/background.jpg';
-
-// html {
-//   height: 100%;  // Ensures the background covers the full height of the page
-// }
-
-// body {
-//   background: url($image-path) no-repeat center center fixed; 
-//   background-size: cover;  // This makes the background image cover the entire area of the element
-//   min-height: 100%;
-// }
-
-// Ensure html and body cover the entire height and width of the viewport
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  position: relative;
-}
-
-body {
-  background: url($image-path) no-repeat center center fixed;
-  background-size: cover;
-}
-
-// Ensure the wrapper does not interfere with the background
-.wrapper {
-  position: relative;
-  background: transparent; // Make sure it's transparent
-  z-index: 1;
-  min-height: 100%;
-}
