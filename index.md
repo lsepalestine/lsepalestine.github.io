@@ -2,6 +2,4 @@
 layout: default
 ---
 
-Website for the LSESU Palestine Society
-
-Tester
+# LSESE Palestine Society
