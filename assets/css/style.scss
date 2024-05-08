@@ -30,60 +30,60 @@ body, h1, h2, h3, p, li {
     }
 }
 
-// Header and navigation styles
-header {
-    background: $secondary-color;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
+// // Header and navigation styles
+// header {
+//     background: $secondary-color;
+//     padding: 10px 20px;
+//     position: fixed;
+//     width: 100%;
+//     top: 0;
+//     z-index: 1000;
+// }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
+// nav ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//     text-align: center;
+// }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
+// nav li {
+//     display: inline-block;
+//     margin-right: 20px;
+// }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
+// nav a {
+//     text-decoration: none;
+//     color: #333;
+//     font-weight: bold;
+// }
 
-nav a:hover {
-    color: $primary-color;
-}
+// nav a:hover {
+//     color: $primary-color;
+// }
 
-// Hero section styles
-.hero {
-    background-color: $primary-color; // Use a background color or an image as needed
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
+// // Hero section styles
+// .hero {
+//     background-color: $primary-color; // Use a background color or an image as needed
+//     color: white;
+//     text-align: center;
+//     padding: 60px 20px;
+// }
 
-.hero h2 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
+// .hero h2 {
+//     font-size: 2.5em;
+//     margin-bottom: 0.5em;
+// }
 
-.hero p {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
+// .hero p {
+//     font-size: 1.5em;
+//     margin-bottom: 1em;
+// }
 
-.hero a.button {
-    background-color: $accent-color;
-    &:hover {
-        background-color: darken($accent-color, 10%);
-    }
-}
+// .hero a.button {
+//     background-color: $accent-color;
+//     &:hover {
+//         background-color: darken($accent-color, 10%);
+//     }
+// }
 
