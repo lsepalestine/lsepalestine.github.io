@@ -33,57 +33,6 @@ body, h1, h2, h3, p, li {
 // Path to your image
 $image-path: 'assets/img/background.jpg';
 
-html {
-  height: 100%;  // Ensures the background covers the full height of the page
-}
-
-body {
-  position: relative;
-  min-height: 100%;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url($image-path) no-repeat center center fixed;
-  background-size: cover;
-  opacity: 0.5;  // Set the opacity of the background image
-  z-index: -1;  // Ensure the background image stays behind the content
-}
-
-// // Variables
-// $primary-color: #0077b6;   // A calming blue, professional and not too bold
-// $secondary-color: #f8f9fa; // Very light gray for backgrounds
-// $accent-color: #d62828;    // A strong red for calls to action
-
-// // Base styles
-// body, h1, h2, h3, p, li {
-//     font-family: 'Nunito Sans', sans-serif;
-//     color: #333; // Default text color
-// }
-
-// // Button styles
-// .button, button, input[type="submit"], input[type="button"] {
-//     background-color: $accent-color;
-//     border: none;
-//     color: white;
-//     padding: 10px 20px;
-//     border-radius: 5px;
-//     text-transform: uppercase;
-//     font-weight: bold;
-//     cursor: pointer;
-//     &:hover {
-//         background-color: darken($accent-color, 10%);
-//     }
-// }
-
-// // Path to your image
-// $image-path: 'assets/img/background.jpg';
-
 // html {
 //   height: 100%;  // Ensures the background covers the full height of the page
 // }
@@ -94,3 +43,24 @@ body::before {
 //   min-height: 100%;
 // }
 
+// Ensure html and body cover the entire height and width of the viewport
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+body {
+  background: url($image-path) no-repeat center center fixed;
+  background-size: cover;
+}
+
+// Ensure the wrapper does not interfere with the background
+.wrapper {
+  position: relative;
+  background: transparent; // Make sure it's transparent
+  z-index: 1;
+  min-height: 100%;
+}
