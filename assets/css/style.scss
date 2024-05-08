@@ -13,42 +13,18 @@ $primary-color: #0077b6;   // A calming blue, professional and not too bold
 $secondary-color: #f8f9fa; // Very light gray for backgrounds
 $accent-color: #d62828;    // A strong red for calls to action
 
-body {
-    background-color: $secondary-color;
-    color: #333;
-}
+// body {
+//     background-color: $secondary-color;
+//     color: #333;
+// }
 
-a {
-    color: $primary-color;
-    &:hover {
-        color: $accent-color;
-        text-decoration: underline;
-    }
-}
-
-header {
-    background-color: $primary-color;
-    color: white;
-    padding: 20px 50px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
-    }
-}
+// a {
+//     color: $primary-color;
+//     &:hover {
+//         color: $accent-color;
+//         text-decoration: underline;
+//     }
+// }
 
 .button, button, input[type="submit"], input[type="button"] {
     background-color: $accent-color;
@@ -64,13 +40,3 @@ header a {
     }
 }
 
-section {
-    padding: 120px 50px 50px; // Add top and bottom padding
-    clear: both; // Clears the floating header
-}
-
-
-h2, h3 {
-    border-bottom: 1px solid $primary-color;
-    padding-bottom: 5px;
-}
