@@ -2,30 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-body, h1, h2, h3, p, li {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
+// Variables
 $primary-color: #0077b6;   // A calming blue, professional and not too bold
 $secondary-color: #f8f9fa; // Very light gray for backgrounds
 $accent-color: #d62828;    // A strong red for calls to action
 
-// body {
-//     background-color: $secondary-color;
-//     color: #333;
-// }
+// Base styles
+body, h1, h2, h3, p, li {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333; // Default text color
+}
 
-// a {
-//     color: $primary-color;
-//     &:hover {
-//         color: $accent-color;
-//         text-decoration: underline;
-//     }
-// }
-
+// Button styles
 .button, button, input[type="submit"], input[type="button"] {
     background-color: $accent-color;
     border: none;
@@ -35,6 +25,63 @@ $accent-color: #d62828;    // A strong red for calls to action
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    &:hover {
+        background-color: darken($accent-color, 10%);
+    }
+}
+
+// Header and navigation styles
+header {
+    background: $secondary-color;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: $primary-color;
+}
+
+// Hero section styles
+.hero {
+    background-color: $primary-color; // Use a background color or an image as needed
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.hero a.button {
+    background-color: $accent-color;
     &:hover {
         background-color: darken($accent-color, 10%);
     }
