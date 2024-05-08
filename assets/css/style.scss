@@ -4,6 +4,12 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 // Variables
 $primary-color: #0077b6;   // A calming blue, professional and not too bold
 $secondary-color: #f8f9fa; // Very light gray for backgrounds
@@ -30,60 +36,67 @@ body, h1, h2, h3, p, li {
     }
 }
 
-// // Header and navigation styles
-// header {
-//     background: $secondary-color;
-//     padding: 10px 20px;
-//     position: fixed;
-//     width: 100%;
-//     top: 0;
-//     z-index: 1000;
+// Path to your image
+$image-path: 'assets/img/background.jpg';
+
+html {
+  height: 100%;  // Ensures the background covers the full height of the page
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url($image-path) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5;  // Set the opacity of the background image
+  z-index: -1;  // Ensure the background image stays behind the content
+}
+
+// // Variables
+// $primary-color: #0077b6;   // A calming blue, professional and not too bold
+// $secondary-color: #f8f9fa; // Very light gray for backgrounds
+// $accent-color: #d62828;    // A strong red for calls to action
+
+// // Base styles
+// body, h1, h2, h3, p, li {
+//     font-family: 'Nunito Sans', sans-serif;
+//     color: #333; // Default text color
 // }
 
-// nav ul {
-//     list-style: none;
-//     padding: 0;
-//     margin: 0;
-//     text-align: center;
-// }
-
-// nav li {
-//     display: inline-block;
-//     margin-right: 20px;
-// }
-
-// nav a {
-//     text-decoration: none;
-//     color: #333;
-//     font-weight: bold;
-// }
-
-// nav a:hover {
-//     color: $primary-color;
-// }
-
-// // Hero section styles
-// .hero {
-//     background-color: $primary-color; // Use a background color or an image as needed
-//     color: white;
-//     text-align: center;
-//     padding: 60px 20px;
-// }
-
-// .hero h2 {
-//     font-size: 2.5em;
-//     margin-bottom: 0.5em;
-// }
-
-// .hero p {
-//     font-size: 1.5em;
-//     margin-bottom: 1em;
-// }
-
-// .hero a.button {
+// // Button styles
+// .button, button, input[type="submit"], input[type="button"] {
 //     background-color: $accent-color;
+//     border: none;
+//     color: white;
+//     padding: 10px 20px;
+//     border-radius: 5px;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     cursor: pointer;
 //     &:hover {
 //         background-color: darken($accent-color, 10%);
 //     }
+// }
+
+// // Path to your image
+// $image-path: 'assets/img/background.jpg';
+
+// html {
+//   height: 100%;  // Ensures the background covers the full height of the page
+// }
+
+// body {
+//   background: url($image-path) no-repeat center center fixed; 
+//   background-size: cover;  // This makes the background image cover the entire area of the element
+//   min-height: 100%;
 // }
 
