@@ -33,7 +33,7 @@
   <body>
     <div class="emoji-ticker">
       <div class="scrolling-ticker">
-🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉
+🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉
       </div>
     </div>    
     <div class="wrapper">
@@ -42,10 +42,19 @@
 
         {% if site.logo %}
           <!-- <img src="{{site.logo | relative_url}}" alt="Logo" /> -->
-          <img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin: 0 auto;" />
+          <!-- <img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin: 0 auto;" /> -->
+          <br>
+          <img src="{{ site.logo | relative_url }}" alt="Logo" style="display: block; margin: 0 auto;" />
+          <br>
+          <!-- <button><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></button> -->
         {% endif %}
-
-        <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
+        <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/document.pdf" target="_blank"><strong style="color: black;">Read our divestment report</strong></a></button>
+        <br>
+        <button style="display: block; margin: 0 auto;"><a href="https://www.lsesu.com/communities/societies/group/lsesupalsoc/"><strong style="color: black;">Join us!</strong></a></button>
+        <br>
+<button style="display: block; margin: 0 auto;"><a href="https://decolonizepalestine.com/"><strong style="color: black;">Learn more</strong></a></button>
+<br>        
+<!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
 
         {% if site.show_downloads %}
@@ -62,8 +71,7 @@
 
       </section>
       <footer>
-        <p><a href="https://linktr.ee/lsesupalestine">LSESU Palestine Linktree</a></p>
-        <p><a href="https://www.instagram.com/lsesupalestine/">LSESU Palestine Instagram</a></p>
+        <p style="text-align: center;"><a href="https://linktr.ee/lsesupalestine">Linktree</a> | <a href="https://www.instagram.com/lsesupalestine/">Instagram</a> | <a href="https://www.lsesu.com/communities/societies/group/lsesupalsoc/">LSESU page</a></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
