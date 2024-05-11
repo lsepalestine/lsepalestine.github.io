@@ -6,5 +6,7 @@ layout: default
 
 The LSESU Palestine Society is committed to providing an uplifting space for all interested in the cause for Palestinian liberation. Our events aim to engage with and celebrate Palestinian history and culture, broadening our knowledge of Palestine as well as bringing together the diverse experiences and perspectives of Palestinians around the world. We hope to build a caring community where we can collectively imagine and work towards a free Palestine.
 
-![Event Image]({{ '/assets/img/event.jpg' | relative_url }} "Event Image")
+![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
+
+![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
 
