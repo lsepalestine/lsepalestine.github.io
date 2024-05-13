@@ -35,8 +35,25 @@
 
 <!-- end custom head snippets -->
 
-    <!-- <style>
-      body, html {
+<style>
+   .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 75%; /* Aspect ratio: 4:3 */
+      height: 0;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /* height: 100%; */
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+</style>
+      <!-- body, html {
         height: 100%;
         position: relative;
       }
@@ -51,8 +68,8 @@
         background-size: cover;
         opacity: 0.4; 
         z-index: -1;   
-      }
-    </style>     -->
+      } -->
+    <!-- </style>     -->
   </head>
   <body>
     <div class="emoji-ticker">
@@ -89,9 +106,22 @@
 
 <p>The LSESU Palestine Society is committed to providing an uplifting space for all interested in the cause for Palestinian liberation. Our events aim to engage with and celebrate Palestinian history and culture, broadening our knowledge of Palestine as well as bringing together the diverse experiences and perspectives of Palestinians around the world. We hope to build a caring community where we can collectively imagine and work towards a free Palestine.</p>
 
+<hr />
+
+<h2 style="text-align: center;">Events</h2>
+
 <p><img src="/assets/img/assembly.jpg" alt="Event Image 1" title="Event Image 1" /></p>
 
 <p><img src="/assets/img/event.jpg" alt="Event Image 2" title="Event Image 2" /></p>
+
+<hr />
+
+<h2 style="text-align: center;">Divestment report</h2>
+
+<iframe src="https://lsepalestine.github.io/documents/document.pdf" width="100%" height="600px">
+This browser does not support PDFs. Please download the PDF to view it: 
+<a href="https://lsepalestine.github.io/documents/document.pdf">Download PDF</a>.
+</iframe>
 
 
 

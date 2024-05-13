@@ -11,8 +11,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <!-- <style>
-      body, html {
+<style>
+   .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 75%; /* Aspect ratio: 4:3 */
+      height: 0;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /* height: 100%; */
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+</style>
+      <!-- body, html {
         height: 100%;
         position: relative;
       }
@@ -27,8 +44,8 @@
         background-size: cover;
         opacity: 0.4; 
         z-index: -1;   
-      }
-    </style>     -->
+      } -->
+    <!-- </style>     -->
   </head>
   <body>
     <div class="emoji-ticker">
