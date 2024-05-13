@@ -16,36 +16,19 @@
       position: relative;
       width: 100%;
       padding-bottom: 75%; /* Aspect ratio: 4:3 */
-      height: 0;
+      /* height: 0; */
       overflow: hidden;
     }
     .iframe-container iframe {
       position: absolute;
-      top: 0;
-      left: 0;
+      /* top: 0; */
+      /* left: 0; */
       width: 100%;
       /* height: 100%; */
       border: 1px solid #ddd;
       border-radius: 4px;
     }
 </style>
-      <!-- body, html {
-        height: 100%;
-        position: relative;
-      }
-      body::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: url('assets/img/background.png') no-repeat center center fixed;
-        background-size: cover;
-        opacity: 0.4; 
-        z-index: -1;   
-      } -->
-    <!-- </style>     -->
   </head>
   <body>
     <div class="emoji-ticker">
@@ -55,15 +38,12 @@
     </div>    
     <div class="wrapper">
       <header>
-        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
 
         {% if site.logo %}
-          <!-- <img src="{{site.logo | relative_url}}" alt="Logo" /> -->
-          <!-- <img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin: 0 auto;" /> -->
+
           <br>
           <img src="{{ site.logo | relative_url }}" alt="Logo" style="display: block; margin: 0 auto;" />
           <br>
-          <!-- <button><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></button> -->
         {% endif %}
         <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/document.pdf" target="_blank"><strong style="color: black;">Read our divestment report</strong></a></button>
         <br>
@@ -71,16 +51,6 @@
         <br>
 <button style="display: block; margin: 0 auto;"><a href="https://decolonizepalestine.com/"><strong style="color: black;">Learn more</strong></a></button>
 <br>        
-<!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
-
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
       </header>
       <section>
 
