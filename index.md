@@ -4,7 +4,7 @@ layout: default
 
 <h1 style="text-align: center;">LSESU PALESTINE SOCIETY</h1>
 
-The LSESU Palestine Society is committed to providing an uplifting space for all interested in the cause for Palestinian liberation. Our events aim to engage with and celebrate Palestinian history and culture, broadening our knowledge of Palestine as well as bringing together the diverse experiences and perspectives of Palestinians around the world. We hope to build a caring community where we can collectively imagine and work towards a free Palestine.
+The LSESU Palestine Society is a student-led group committed to Palestinian liberation. It answers the call for the Boycott, Divestment, and Sanctions (BDS) movement and investigates how LSE violates Palestinian rights. The collective is actively involved in political education for the LSE community by promoting the rich Palestinian culture and history. The group is part of a broader network of student societies and youth-led campaigns, joining the international movement for a free Palestine.
 
 ---
 
