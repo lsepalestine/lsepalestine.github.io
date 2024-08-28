@@ -29,7 +29,11 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 <h2 style="text-align: center;">COUNCIL PROPOSALS</h2>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">Read our divestment proposals</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">Our divestment proposals</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">LSE council's divestment decision</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">Our response to LSE council's divestment decision</strong></a></button>
 
 ---
 
