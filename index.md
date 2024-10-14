@@ -43,4 +43,9 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Messages to Council.pdf" target="_blank"><strong style="color: black;">Read petition messages to council</strong></a></button>
 
+---
+
+<h2 style="text-align: center;">DIVESTMENT PETITIONS</h2>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/divestmentpetitions.pdf" target="_blank"><strong style="color: black;">Read petition messages to council</strong></a></button>
 
