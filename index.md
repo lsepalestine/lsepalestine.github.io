@@ -43,3 +43,13 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Messages to Council.pdf" target="_blank"><strong style="color: black;">Read 'Council Divest' petition messages to council</strong></a></button>
 
+---
+
+<h2 style="text-align: center;">UN SUBMISSION</h2>
+
+LSE joins several other UK universities in responding to a OHCHR 'Call for input for the report of the Special Rapporteur on the occupied Palestinian territory to the Human Rights Council' and submited the below letter. 
+https://www.ohchr.org/en/calls-for-input/2024/call-input-report-special-rapporteur-occupied-palestinian-territory-human
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Letter to Francesca Albanese.pdf" target="_blank"><strong style="color: black;">Letter to Francesca Albanese</strong></a></button>
+
+
