@@ -14,7 +14,18 @@ The LSESU Palestine Society is a student-led group committed to Palestinian libe
 
 ![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
 
+
 ---
+<h2 style="text-align: center;">STAKES IN SETTLER COLONIALISM</h2>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/LSESUPALESTINE-Stakes-in-Settler-Colonialism-2025-Web.pdf" target="_blank"><strong style="color: black;">Read our NEW divestment report</strong></a></button>
+
+<iframe src="https://lsepalestine.github.io/documents/LSESUPALESTINE-Stakes-in-Settler-Colonialism-2025-Web.pdf" width="100%" height="600px">
+This browser does not support PDFs. Please download the PDF to view it: 
+<a href="https://lsepalestine.github.io/documents/LSESUPALESTINE-Stakes-in-Settler-Colonialism-2025-Web.pdf">Download PDF</a>.
+</iframe>
+
+----
 
 <h2 style="text-align: center;">ASSETS IN APARTHEID REPORT</h2>
 
