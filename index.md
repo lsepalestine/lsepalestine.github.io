@@ -48,7 +48,7 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Report_ESG_Review_Group_LSE_10_July_2025.pdf" target="_blank"><strong style="color: black;">2025 ESG Review Group Report</strong></a></button>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Report_ESG_Review_Group_LSE_10_July_2025.pdf" target="_blank"><strong style="color: black;">2025 ESG Review Group Report</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Statement_Council_LSE_10_July_2025.pdf" target="_blank"><strong style="color: black;">2025 LSE Council Statment on ESG decision</strong></a></button>
 
 ---
 
