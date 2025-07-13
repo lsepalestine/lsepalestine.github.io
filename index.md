@@ -40,11 +40,15 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 <h2 style="text-align: center;">COUNCIL PROPOSALS</h2>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">Our divestment proposals</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Divestment from Egregious Activities – Proposals for Council.pdf" target="_blank"><strong style="color: black;">2024 Our divestment proposals</strong></a></button>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/lse_council_response_to_calls_for_divestment_july24.pdf" target="_blank"><strong style="color: black;">LSE council's divestment decision</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/lse_council_response_to_calls_for_divestment_july24.pdf" target="_blank"><strong style="color: black;">2024 LSE council's divestment decision</strong></a></button>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/DivestmentResponse-Statement.pdf" target="_blank"><strong style="color: black;">Our response to LSE council's divestment decision</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/DivestmentResponse-Statement.pdf" target="_blank"><strong style="color: black;">2024 Our response to LSE council's divestment decision</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Report_ESG_Review_Group_LSE_10_July_2025.pdf" target="_blank"><strong style="color: black;">2025 ESG Review Group Report</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/Report_ESG_Review_Group_LSE_10_July_2025.pdf" target="_blank"><strong style="color: black;">2025 ESG Review Group Report</strong></a></button>
 
 ---
 
