@@ -6,6 +6,11 @@ layout: default
 
 The LSESU Palestine Society is a student-led group committed to Palestinian liberation. It answers the call for the Boycott, Divestment, and Sanctions (BDS) movement and investigates how LSE violates Palestinian rights. The collective is actively involved in political education for the LSE community by promoting the rich Palestinian culture and history. The group is part of a broader network of student societies and youth-led campaigns, joining the international movement for a free Palestine.
 
+--
+<h2 style="text-align: center;">Agitator2.0</h2>
+
+<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"></iframe>
+
 ---
 
 <h2 style="text-align: center;">EVENTS</h2>
@@ -13,9 +18,6 @@ The LSESU Palestine Society is a student-led group committed to Palestinian libe
 ![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
 
 ![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
-
----
-<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"> </iframe>
 
 ---
 <h2 style="text-align: center;">STAKES IN SETTLER COLONIALISM</h2>
