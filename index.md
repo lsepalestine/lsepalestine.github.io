@@ -11,13 +11,6 @@ The LSESU Palestine Society is a student-led group committed to Palestinian libe
 
 <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"></iframe>
 
----
-
-<h2 style="text-align: center;">EVENTS</h2>
-
-![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
-
-![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
 
 ---
 <h2 style="text-align: center;">STAKES IN SETTLER COLONIALISM</h2>
@@ -79,3 +72,11 @@ https://www.ohchr.org/en/calls-for-input/2024/call-input-report-special-rapporte
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/PalSocLetterJusticeforJanet.pdf" target="_blank"><strong style="color: black;">Justice for Janet - Palsoc Statement</strong></a></button>
 
+
+---
+
+<h2 style="text-align: center;">EVENTS</h2>
+
+![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
+
+![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
