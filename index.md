@@ -15,7 +15,7 @@ The LSESU Palestine Society is a student-led group committed to Palestinian libe
 ![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
 
 ---
-<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"></iframe>
+<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"> </iframe>
 
 ---
 <h2 style="text-align: center;">STAKES IN SETTLER COLONIALISM</h2>
