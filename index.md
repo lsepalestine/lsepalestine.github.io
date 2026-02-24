@@ -76,9 +76,3 @@ https://www.ohchr.org/en/calls-for-input/2024/call-input-report-special-rapporte
 
 
 ---
-
-<h2 style="text-align: center;">EVENTS</h2>
-
-![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
-
-![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
