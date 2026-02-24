@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
    
 <h1 style="text-align: center;">LSESU PALESTINE SOCIETY</h1>
 
