@@ -139,10 +139,12 @@ Read LSE's 'Community Updates':
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/document/27_March_2024_School_Email.pdf" target="_blank"><strong style="color: black;">LSE 27 March School Email</strong></a></button>
 
+---
 LSE Graduation
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/document/lse_grad_brochure.pdf" target="_blank"><strong style="color: black;">Brochure December 2024</strong></a></button>
 
+---
 LSESU Election 2025
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/document/QUESTIONS_FOR_LSESU_LEADERSHIP_RACE_CANDIDATES.pdf" target="_blank"><strong style="color: black;">Questions for Candidates</strong></a></button> 
