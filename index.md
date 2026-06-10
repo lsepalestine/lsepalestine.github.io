@@ -7,7 +7,14 @@ layout: default
 
 The LSESU Students for Justice in Palestine is a student-led group committed to Palestinian liberation. It answers the call for the Boycott, Divestment, and Sanctions (BDS) movement and investigates how LSE violates Palestinian rights. The collective is actively involved in political education for the LSE community by promoting the rich Palestinian culture and history. The group is part of a broader network of student societies and youth-led campaigns, joining the international movement for a free Palestine.
 
---
+---
+<h2 style="text-align: center;">LSE Festival Supplement</h2>
+
+<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/fc20a5a340.html"></iframe>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/lsefestivalsupplement.html" target="_blank"><strong style="color: black;">LSE Festival Supplement</strong></a></button>
+
+---
 <h2 style="text-align: center;">Agitator2.0</h2>
 
 <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 400px;" src="https://heyzine.com/flip-book/c601e427d6.html"></iframe>
